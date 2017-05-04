@@ -1,0 +1,22 @@
+﻿verkáætlun fyrir gsö
+hafa töflu sem getur tengst við hvert og eitt table sem er í databaseinu
+hvaða gögn á hún að innihalda?
+gera 5 töflur að lágmarki?
+muna að það þarf að linka töflurnar saman
+primary key er mikilvægur
+nýta okkur select skipun sem við svörum svo ákveðnum spurningum með.
+reyna að bæta einhverju aukalegu við í færslurnar
+
+Dagbók
+24.04.2017
+Skoðun yfir verkefnið og hvernig skal vinna þetta , prufuðum að búa til töflu í WORD með 
+bæði tables og með notkun á shapes
+26.04.2017
+Fórum og kláruðum word heftið ásamt því að setja inn skipanir og tengingar sem við áttum 
+eftir að setja fram eftir það byrjuðum við á verkefninu í phpmyadmin
+04.05.2017 
+Áður en við byrjuðum að setja inn færslur þar þá skrifuðum við niður hlutina í notepad++ 
+sem við myndum svo færa yfir í phpmyadmin þegar við værum búnir að skrá allt sem ætti 
+að fara í listann og allt væri komið til að setja verkefnið á Innu 
+
+
