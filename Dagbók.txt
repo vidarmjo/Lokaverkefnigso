@@ -18,5 +18,8 @@ eftir að setja fram eftir það byrjuðum við á verkefninu í phpmyadmin
 Áður en við byrjuðum að setja inn færslur þar þá skrifuðum við niður hlutina í notepad++ 
 sem við myndum svo færa yfir í phpmyadmin þegar við værum búnir að skrá allt sem ætti 
 að fara í listann og allt væri komið til að setja verkefnið á Innu 
-
-
+06.05.2017
+Í dag þá vorum við jón að setja fram mest allar skipanir og klára þær og byrjuðum 
+að skrifa niður öll commit sem þurfti svo að setja inn á þær og gerðum með notepad++
+og náðum að klæara
+07.05.2017
