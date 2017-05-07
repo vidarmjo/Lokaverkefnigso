@@ -49,3 +49,6 @@ values
 
 insert into
 	Lag(nafn,lengd,texti,flytjandi_ID,Diskur_ID)
+	
+	
+Það sem ég er komin með þarf hjálp við síðasta
