@@ -23,3 +23,5 @@ að fara í listann og allt væri komið til að setja verkefnið á Innu
 að skrifa niður öll commit sem þurfti svo að setja inn á þær og gerðum með notepad++
 og náðum að klæara
 07.05.2017
+Héldum áfram með verkefnið og kláruðum að setja inn allar commit og settum inn á tsuts 
+til að byrja að finna select skipannirir 
