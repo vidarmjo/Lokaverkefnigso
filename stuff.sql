@@ -45,7 +45,7 @@ values
 	("Help!","1965-08-06",14,5,5),
 	("High voltage","1976-04-30",9,2,4),
 	("Believers never die","2009-11-17",19,7,3),
-	("The hollywood bowl","1977-05-04,17",8,6);
+	("The hollywood bowl","1977-05-04,17",13,8,6);
 
 insert into
 	Lag(nafn,lengd,texti,flytjandi_ID,Diskur_ID)
