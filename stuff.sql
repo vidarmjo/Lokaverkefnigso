@@ -14,7 +14,7 @@ values
 	("Heavy metal"),
 	("Pop rock"),
 	("popp"),
-	("Emo"),
+	("Paunk"),
 	("Rock and roll");
 	
 insert into 
@@ -23,18 +23,18 @@ values
 	("Warner bros"),
 	("EMI Records"),
 	("Island"),
-	("Atlantic")
+	("Atlantic"),
 	("Parlophone"),
 	("Capitol");
 	
 insert into
-	Flytjandi(nafn,Faedingardagur,Danardagur,Aldur,Fjoldi_gefna_diska,Flokkur)
+	Flytjandi(nafn,Faedingardagur,Danardagur,Aldur,Fjoldi_gefna_diska,Flokkur_ID)
 values 
-	("ACDC - Malcolm Mitchell Young","1953-01-06",null,64,17,2),
-	("queen - Freddie mercury","1946-09-05","1991-11-24",45,46,2),
-	("fall_out_boy - Patrick Martin Stump","1984-04-27",null,33,9,2),
-	("disturbed - David Michael Draiman","1973-03-13",null,44,12,2),
-	("thebeatles - James Paul Mccartney","1942-05-18",null,74,99,2);
+	("Malcolm Mitchell Young","1953-01-06",null,64,17,2),
+	("Freddie mercury","1946-09-05","1991-11-24",45,46,2),
+	("Patrick Martin Stump","1984-04-27",null,33,9,2),
+	("David Michael Draiman","1973-03-13",null,44,12,2),
+	("James Paul Mccartney","1942-05-18",null,74,99,2);
 
 insert into 
 	diskur(nafn,utgafudagur,Fjoldi_laga,Tegund_disks_ID,Utgefandi_ID)
@@ -45,12 +45,12 @@ values
 	("Help!","1965-08-06",14,5,5),
 	("High voltage","1976-04-30",9,2,4),
 	("Believers never die","2009-11-17",19,7,3),
-	("The hollywood bowl","1977-05-04,17",8,6);
+	("The hollywood bowl","1977-05-04,17",13,8,6);
 
 insert into
-	Lag(nafn,lengd,texti,flytjandi_ID,Diskur_ID)
+	Lagid(nafn,lengd,texti,flytjandi_ID,Diskur_ID)
 values
-	(Thunderstruck,4:52,
+	("Thunderstruck",292,
 "I was caught
 In the middle of a railroad track (Thunder)
 I looked round
@@ -102,7 +102,7 @@ Whoa baby, baby, thunderstruck
 You've been thunderstruck, thunderstruck
 Thunderstruck, thunderstruck
 You've been thunderstruck",1,1),
-	(The Razors edge,4:22,"Theres fighting on the left and marching on the right
+	("The Razors edge",262,"Theres fighting on the left and marching on the right
 Dont look up in the sky, youre gonna die of fright
 Here comes the razors edge
 Youre living on the edge, dont know wrong from right
@@ -125,7 +125,7 @@ The razors edge
 Gotta razors edge
 Youll be cut to shreds by the razors edge
 Gotta razors edge",1,1),
-	(Are you ready,4:10,"Are you ready
+	("Are you ready",250,"Are you ready
 Are you ready
 Are you ready
 Are you ready
@@ -155,7 +155,7 @@ Who all need it, who all need it
 you all breathe it, we all need it
 are you ready for a good time
 then get ready for the night line",1,1),
-	(If you dare,3:08,
+	("If you dare",188,
 "Honey do you love me
 Love me like you do
 Honey won't you come outside and play
@@ -191,7 +191,7 @@ If you
 Dare
 
 Come outside and play",1,1),
-	(Centuries,3:51,"Some legends are told
+	("Centuries",231,"Some legends are told
 Some turn to dust or to gold
 But you will remember me
 Remember me, for centuries
@@ -257,7 +257,7 @@ We'll go down in history
 Remember me for centuries
 Hey, hey, hey
 Remember me for centuries",3,2),
-	(Immortals,3:09,"They say we are what we are
+	("Immortals",189,"They say we are what we are
 But we don’t have to be
 I’m glad to hate you but I do it in the best way
 I’ll be the watcher of the eternal flame
@@ -295,7 +295,7 @@ We could be immor immortals, immor immortals
 Immor immortals, immor immortals
 
 Immortals",3,2),
-	(irrestible,3:26,"Count me in unannounced, drag my nails on the tile
+	("irrestible",206,"Count me in unannounced, drag my nails on the tile
 I just follow your scent
 You can't just follow my smile
 All of your flaws are aligned with this mood of mine
@@ -371,7 +371,7 @@ I love the way, I love the way
 I love the way you hurt me, baby
 Eh eh eh eh eh
 Eh eh eh eh eh",3,2),
-	(American Beuty/American Psycho,3:15,"She's an American beauty
+	("American Beuty/American Psycho",195,"She's an American beauty
 I'm an American psycho
 She's an American beauty
 I'm an American, I'm an American
@@ -385,7 +385,7 @@ I'm the best worst thing that hasn't happened to you yet
 The best worst thing
 You take the full, full truth, then you pour some out
 You take the full, full truth, then you pour some out
-And you can kill me, kill me or let God sort 'em out
+And you can kill me, kill me or let God sort 'em out
 Kill me, kill me or
 
 She's an American beauty
@@ -431,7 +431,7 @@ I'm, I'm, I'm an American psycho
 I'm an American, I'm an American, I'm an American psycho
 I'm an American, I'm an American
 I'm, I'm, I'm an American psycho",3,2),
-	(immortalized,4:17,"[Verse 1]
+	("immortalized",257,"[Verse 1]
 This is wartime, this is our time
 We won't be denied
 Feed the fire that is raging inside
@@ -501,7 +501,7 @@ Oh, so heed the call of confrontation
 Today we feed on domination
 Secure a legacy that will never die
 Be immortalized",4,3),
-	(The sound of silence,4:08,"Hello darkness, my old friend
+	("The sound of silence",248,"Hello darkness, my old friend
 I've come to talk with you again
 Because a vision softly creeping
 Left its seeds while I was sleeping
@@ -541,7 +541,7 @@ And the signs said
 The words of the prophets are written on the subway walls
 And tenement halls
 And whisperd in the sounds of silence",4,3),
-	(The light,4:16,"Like an unsung melody
+	("The light",256,"Like an unsung melody
 The truth is waiting there for you to find it
 It's not a blight but a remedy
 A clear reminder of how it began
@@ -602,7 +602,7 @@ Listen to me now
 You need never feel broken again
 Sometimes darkness
 Can show you the light",4,3),
-	(The vengeful one,4:16,"He is observing the chaos, taking in the lack of raw humanity
+	("The vengeful one",256,"He is observing the chaos, taking in the lack of raw humanity
 It's as if the entire world's fallen in love with their insanity
 Hear the innocent voices scream
 As their tormentors laugh through all of it
@@ -670,7 +670,7 @@ In the blackest moment of a dying world
 What have you become
 (Look inside and see what you're becoming)
 (Look inside and see what you're becoming)",4,3),
-	(Help!,2:18,"Help, I need somebody
+	("Help!",138,"Help, I need somebody
 Help, not just anybody
 Help, you know I need someone, help
 
@@ -705,7 +705,7 @@ Help me, get my feet back on the ground
 Won't you please, please help me
 Help me help me
 Hooo",5,4),
-	(yesterday,2:05,"Yesterday all my troubles seemed so far away.
+	("yesterday",125,"Yesterday all my troubles seemed so far away.
 Now it looks as though they're here to stay.
 Oh, I believe in yesterday.
 
@@ -728,7 +728,7 @@ Now I need a place to hide away.
 Oh, I believe in yesterday.
 
 Mm mm mm mm mm mm mm",5,4),
-	(I need you,2:28,"You don't realize how much I need you,
+	("I need you",148,"You don't realize how much I need you,
 Love you all the time
 And never leave you.
 Please come on back to me.
@@ -756,7 +756,7 @@ Just what you mean to me
 I need you
 I need you
 I need you",5,4),
-	(Another girl,2:05,"For I have got another girl, another girl
+	("Another girl",125,"For I have got another girl, another girl
 You're making me say that I've got nobody but you
 But as from today well I've got somebody that's new
 I ain't no fool and I don't take what I don't want
@@ -777,7 +777,7 @@ For I have got another girl
 Another girl who will love me till the end
 Through thick and thin she will always be my friend
 For I have got another girl",5,4),
-	(Dead on arrival,3:16,"I hope this is the last time
+	("Dead on arrival",196,"I hope this is the last time
 Cause I'd never say no to you
 This conversation's been dead on arrival
 There's no way to talk to you
@@ -819,7 +819,7 @@ Never stick at first
 So I'm writing you a chorus
 And here is your verse
 Here is your verse",3,6),
-	(I dont care,3:39,"Say my name, and his in the same breath,
+	("I dont care",219,"Say my name, and his in the same breath,
 I dare you to say they taste the same,
 Let the leaves fall off in the summer
 And let December glow in flames
@@ -869,7 +869,7 @@ The best of us can find happiness, in misery
 I don't care what you think,
 As long as it's about me
 The best of us can find happiness, in misery",3,6),
-	(Beat it,3:49,"They told him don't you ever come around here 
+	("Beat it",229,"They told him don't you ever come around here 
 Don't wanna see your face, you better disappear 
 The fire's in their eyes and their words are really clear 
 So beat it, just beat it 
@@ -952,7 +952,7 @@ Just beat it, beat it, beat it, beat it
 No one wants to be defeated 
 Just beat it, beat it 
 Beat it, beat it, beat it",3,6),
-	(Saturday,3:38,"I'm good to go and I'm going nowhere fast
+	("Saturday",218,"I'm good to go and I'm going nowhere fast
 It could be worse, I could be taking you there with me
 I'm good to go, but it looks like I'm still on my own
 
